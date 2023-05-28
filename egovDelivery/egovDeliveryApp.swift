@@ -11,7 +11,7 @@ import SwiftUI
 struct egovDeliveryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

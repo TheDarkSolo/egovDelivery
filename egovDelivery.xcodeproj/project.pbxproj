@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		843E65122A23041D005C186F /* egovDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E65112A23041D005C186F /* egovDeliveryApp.swift */; };
-		843E65142A23041D005C186F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E65132A23041D005C186F /* ContentView.swift */; };
+		843E65142A23041D005C186F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E65132A23041D005C186F /* MainView.swift */; };
 		843E65162A23041E005C186F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843E65152A23041E005C186F /* Assets.xcassets */; };
 		843E65192A23041E005C186F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843E65182A23041E005C186F /* Preview Assets.xcassets */; };
+		8463CA5D2A230DBA001B988A /* OrderStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463CA5C2A230DBA001B988A /* OrderStatusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		843E650E2A23041D005C186F /* egovDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = egovDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843E65112A23041D005C186F /* egovDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = egovDeliveryApp.swift; sourceTree = "<group>"; };
-		843E65132A23041D005C186F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		843E65132A23041D005C186F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		843E65152A23041E005C186F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843E65182A23041E005C186F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8463CA5C2A230DBA001B988A /* OrderStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStatusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				843E65112A23041D005C186F /* egovDeliveryApp.swift */,
-				843E65132A23041D005C186F /* ContentView.swift */,
+				843E65132A23041D005C186F /* MainView.swift */,
+				8463CA5C2A230DBA001B988A /* OrderStatusView.swift */,
 				843E65152A23041E005C186F /* Assets.xcassets */,
 				843E65172A23041E005C186F /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843E65142A23041D005C186F /* ContentView.swift in Sources */,
+				8463CA5D2A230DBA001B988A /* OrderStatusView.swift in Sources */,
+				843E65142A23041D005C186F /* MainView.swift in Sources */,
 				843E65122A23041D005C186F /* egovDeliveryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
